@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"*",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -67,7 +67,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEhxamhyQUQzVlQwN3FzVnZBb3gzc2puUzFzRnlzTU1xZVJ3b1c4OUJrYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiLzhzOExxblUramdvc3NNNUluVG9zU2gveXRjM05rRzBnS28ycjhZaUtCTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrSWhlaU9rMkFtd1k4TWU4NlVuK0VFNkxIUjBCdi9pKzQ3NktGcWtiYWtzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJieXJKdG8reXZuSTg1aEJvMk5tbjVleHNTc0wvc2tNZXQxUjkyUVN5SVg0PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVJK2ovL3dubStNd01SN1V1SUQwRTNCTlpxdkVyR3pUbndKK3BlQkVRRlU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9uelRjOHdxL0NBTFp3WDhQZ1IzYVFJRFhlZ2p5MmRhdFV0VitQMUFUd0E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEVMMVE0TDA2alFUZUtud0Q3eXRtRHIwTHpWc0RqUE5JangxU09TSjVXaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ1BPa2dUM2FOVTNHYWdvR3Zldjg2OG9hS202NTJ2cUxXZ2FKTFpqUmFpVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllYa3RVYWdKMUw0Sk1Fa1dCdVNjS3ZzVkw1WHpQTXZTOE12ZllMR2RJa21pTFloYVNJQkFyNDVNMTMwd2RqRS9TTktiVHRPUHBFZ0JVTHRFL2E5L2d3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTgyLCJhZHZTZWNyZXRLZXkiOiJ1ZnJ2VnJuT1d5SmtrNkU3bWlrNTZJUzFiY3pnUnBzbHBVNDV6SklKeUpvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJVZDBoQmdmRFNXaVdKS0tNMEt2Qi1BIiwicGhvbmVJZCI6ImY0YjYxMmY0LTEyNDItNDAzZi1hMWQ2LWNmZTZjOGNiOGExMyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJEY1BDK25IbVZYaElUYlFnU2NWTnI2NFZpZ3c9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYW1uVi9wWDZ2dFFrOWFqK1FkSGdqMzU0NGNBPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjI3MzQxUVpYIiwibWUiOnsiaWQiOiIyNTQ3OTg1MTUwNTI6MTdAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiflByaW5jZSByb2NreSB3cnkgLMK/wr8/PyJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUGlKcWRnSEVNWDluN1FHR0NZZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoidnJ6SnN6MjY1cG4zYWtSUmpPaDFFMGVwQkE2VHF4SXpTQVo3anF1bXJROD0iLCJhY2NvdW50U2lnbmF0dXJlIjoidlBEWjQwQ2Y1YzRGaVdiM08rdEtHNTk0ZVVFUE5FajkyQ2IrTmxENnFHa09LMWttVlJXWjYyUWgycHdtVzlSdlJHNWh2TkVnZUpPRVNuRzkzVG5ZRGc9PSIsImRldmljZVNpZ25hdHVyZSI6Ijdnd0hFYlNOWHdCZXU3UFFRdytLaDRPbVVSRm50cG43cHNNM2o3bno0QzJkWGxUMm04Q1BwUDJDRytpZUwyUEVIRmg5NGtlMXRwcWRSR25HeExKMWd3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0Nzk4NTE1MDUyOjE3QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmI2OHliTTl1dWFaOTJwRVVZem9kUk5IcVFRT2s2c1NNMGdHZTQ2cnBxMFAifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjAxODg2MjYsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBQStIIn0=",
       "required":true
       
     },
@@ -76,14 +76,15 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "PRINCE ROCKY "
+
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254739937062,254710772666"
+    "value": "254798515052,254710772666"
   },
     "WARN_COUNT":
   {
@@ -99,7 +100,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",  
+    "value":"3",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
